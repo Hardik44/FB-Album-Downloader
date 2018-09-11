@@ -195,10 +195,9 @@ foreach ($data as $key => $value){
 
         foreach ($photos as $key => $value){
             $imageURL = $value -> images[0] -> source;
-            //echo $imageURL;
             $i++;
             $percent = intval($i/$total * 100);
-            //echo $imageURL;
+            
             if($drive == true && $i == $total){
                 $percent = 0;
             }
@@ -267,7 +266,6 @@ if($drive==false) {
     $_SESSION['name'] = $userName;
 
     shell_exec("php background.php ".$arg." &");
-    //echo shell_exec("");
     header('Location: home.php');
     exit();
 
