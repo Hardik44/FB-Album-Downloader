@@ -1,5 +1,5 @@
 # FB-Album-Downloader
-This is simple php website from where you can download your Facebook albums or upload to google drive at one click.
+This is simple php website from where you can download your Facebook albums or upload to google drive at one click. You can select and upload photos into drive location. 
 
 ### Below are the libraries used in this project:
 ```
